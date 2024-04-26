@@ -38,6 +38,9 @@
       </visual>
       <visual name='odom_fixed_joint_lump__top_link_visual_1'>
         <pose>0 0 0.114486 0 -0 0</pose>
+        
+        
+        
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -102,7 +105,7 @@
         </material>
       </visual>
       <visual name='dronvor_target_visual'>
-	<pose>0 0 1 0 -1 0</pose>
+	<pose>0 0 1.5 1 0 -1.57</pose>
 	<geometry>
 	  <mesh>
 	    <scale>0.4 0.4 0.4</scale>
