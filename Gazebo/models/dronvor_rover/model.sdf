@@ -105,10 +105,10 @@
         </material>
       </visual>
       <visual name='dronvor_target_visual'>
-	<pose>0 0 1.5 1.25 0 -1.57</pose>
+	<pose>0 0 0.5 1.25 0 -1.57</pose>
 	<geometry>
 	  <mesh>
-	    <scale>0.4 0.4 0.4</scale>
+	    <scale>0.2 0.2 0.2</scale>
 	    <uri>model://Apriltag20_8_Dronvor/meshes/target_dronvor.dae</uri>
 	  </mesh>
 	</geometry>
@@ -491,7 +491,8 @@
       <control channel="0">
         <jointName>motor_0</jointName>
         <useForce>1</useForce>
-        <multiplier>46.3</multiplier>
+        <!--multiplier>46.3</multiplier-->
+        <multiplier>500</multiplier>
         <offset>-0.5</offset>
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
@@ -509,7 +510,8 @@
       <control channel="0">
         <jointName>motor_1</jointName>
         <useForce>1</useForce>
-        <multiplier>46.3</multiplier>
+        <!--multiplier>46.3</multiplier-->
+        <multiplier>500</multiplier>
         <offset>-0.5</offset>
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
@@ -527,7 +529,8 @@
       <control channel="2">
         <jointName>motor_2</jointName>
         <useForce>1</useForce>
-        <multiplier>-46.3</multiplier>
+        <!--multiplier>-46.3</multiplier-->
+        <multiplier>-500</multiplier>
         <offset>-0.5</offset>
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
@@ -545,7 +548,8 @@
       <control channel="2">
         <jointName>motor_3</jointName>
         <useForce>1</useForce>
-        <multiplier>-46.3</multiplier>
+        <!--multiplier>-46.3</multiplier-->
+        <multiplier>-500</multiplier>
         <offset>-0.5</offset>
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
